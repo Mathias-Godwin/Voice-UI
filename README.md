@@ -1,6 +1,10 @@
 # Voice-UI
-Voice User Interface for integrating Botium Speech Processing tool &amp; RASA.
+Voice User Interface for integrating GCP STT
 
-Check out the video tutorial here:
 
-https://www.youtube.com/watch?v=UaG747a46ss&list=PLkVfF0cPzlha3HolmsuJxlvJ-kcGvwBzV
+
+**Step_1** : clone this branch `GoogleSTT_VUI` and run `npm install`
+
+**Step_2** : open the webpage in browser `http://localhost:3000/` and start recording
+
+**Step_3** :  once recording is done, click on the mic and the recording will stop and the processed result will be visible in the message box.

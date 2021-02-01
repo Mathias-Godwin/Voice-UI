@@ -69,10 +69,6 @@ function startRecording() {
       // Start recording !
       recorder && recorder.record();
       console.log("Recording...");
-
-      // Disable Record button and enable stop button !
-      //   document.getElementById("start-btn").disabled = true;
-      //   document.getElementById("stop-btn").disabled = false;
     },
     function (e) {
       console.error("No live audio input: " + e);
